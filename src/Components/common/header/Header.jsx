@@ -9,11 +9,11 @@ export default function Header() {
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"/>
 
     
-        <nav className="navbar is-transparent has-background-black  ">
+        <nav className="navbar is-transparent has-background-dark  ">
         <div className="navbar-brand">
           <a className="navbar-item " href="/">
-          <figure class="image" >
-            <img  src= { lsdtLogo } alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+          <figure class="image " >
+            <img  src= "https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Placeholder image"alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
           </figure>          </a>
        
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"id="navMenu" >

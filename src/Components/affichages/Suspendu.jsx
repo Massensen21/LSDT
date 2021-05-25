@@ -10,19 +10,15 @@ export default function Suspendu() {
   <div className="card-content">
   
   <figure className="image is-240x240">
-      <img src="https://bulma.io/images/bulma-logo.png" alt="Placeholder image" />
+      <img src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Placeholder image" />
     </figure>
-    <br/>
-    <br/>
-    <br/>
+    
     <br/>
     <br/>
 
     <div className="content has-text-white has-text-centered">
        Votre compte est suspendu.
-      <br/>
-      <br/>
-      <br/>
+     
       <br/>
       <br/>  
        Veuillez prendre contact avec le responsable de<br/> 

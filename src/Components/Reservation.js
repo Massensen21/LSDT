@@ -12,14 +12,14 @@ export default function Reservation() {
 
         <div  className=" box has-background-black container is-max-desktop">
 
-<Header/>
+
 
           
         
         <form className="box has-background-dark  ">
 
         <figure class="image is-128x128" >
-            <img  src={LSDTlogo} alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+            <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
           </figure>
       
       <div className="field">
@@ -40,7 +40,7 @@ export default function Reservation() {
       <div className="field">
     <label className="label has-text-white">Choisissez la date de votre séance </label>
     <div className="control ">
-      <input className="input " type="date" placeholder="e.g. alex@example.com" />
+      <input className="input-shadow" type="date" placeholder="e.g. alex@example.com" />
     </div>
   </div>
 

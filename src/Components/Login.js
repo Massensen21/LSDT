@@ -3,13 +3,17 @@ import modalConnexion from './Modal/modalConnexion'
 
 export default function Login() {
     return (
-        <div className="box has-background-black container is-max-desktop">
+        <div className="box has-background-black ">
+
         
         <form className="box has-background-dark ">
+        
+            <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+          
   <div className="field">
     <label className="label has-text-white">Email</label>
     <div className="control">
-      <input className="input " type="email" placeholder="e.g. alex@example.com" />
+      <input className="input " type="email" placeholder="alex@example.com" />
     </div>
   </div>
 
@@ -23,9 +27,10 @@ export default function Login() {
   <button className="button is-primary has-text-white">se connecter</button>
 </form>
         
-<modalConnexion/>
+   <modalConnexion/>
 
         </div>
+        
     );
 }
 

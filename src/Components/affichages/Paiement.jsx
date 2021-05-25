@@ -5,25 +5,19 @@ export default function Paiement() {
     return (
         <div>
             <div className="card has-background-dark">
-  <div className="card-image ">
-   
-  </div>
-  <div className="card-content">
   
-  <figure className="image is-240x240">
-      <img src="https://bulma.io/images/bulma-logo.png" alt="Placeholder image" />
-    </figure>
-    <br/>
-    <br/>
-    <br/>
-    <br/>
+  <div className="card-content">
+  <span class="icon-text">
+  <span class="icon">
+    <i class="fas fa-home"></i>
+  </span>
+  
+</span>
     <br/>
 
     <div className="content has-text-white has-text-centered">
        Finalisez votre inscription.
-      <br/>
-      <br/>
-      <br/>
+     
       <br/>
       <br/>  
         Il vous reste à payer votre prorata et/ou à nous <br/> 

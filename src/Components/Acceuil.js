@@ -10,7 +10,7 @@ import { Header } from '../Components/common';
 export default function Acceuil() {
     return (
         <div  className=" box has-background-black container is-max-desktop">
-            <Header/>
+           
             <Paiement/>
             <Pause/>
             <Suspendu/>
