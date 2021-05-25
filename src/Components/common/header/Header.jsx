@@ -6,15 +6,14 @@ export default function Header() {
     return (
         
         <div>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css"/>
 
     
-        <nav className="navbar is-transparent has-background-dark  ">
+        <nav className="navbar is-transparent has-background-black  ">
         <div className="navbar-brand">
           <a className="navbar-item " href="/">
-          <figure class="image " >
-            <img  src= "https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Placeholder image"alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
-          </figure>          </a>
+        
+            <img  src= "https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif_v2.png" width="112" height="28" />
+                   </a>
        
     <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"id="navMenu" >
       <span aria-hidden="true"></span>
@@ -25,33 +24,25 @@ export default function Header() {
       
         <div id="navLinks" className="navbar-menu " >
           <div className="navbar-start"  >
-            <a className="navbar-item has-text-white" href="/Login">
-              Connexion
-            </a>
             <a className="navbar-item has-text-white" href="/Reservation">
               Réservation
             </a>
-            <div className="navbar-item has-dropdown is-hoverable">
-              <a className="navbar-link has-text-white" href="https://bulma.io/documentation/overview/start/">
-                Docs
-              </a>
-              <div className="navbar-dropdown is-boxed">
-                <a className="navbar-item" href="https://bulma.io/documentation/overview/start/">
-                  Overview
-                </a>
-               
-                <hr className="navbar-divider"/>
-                <a className="navbar-item" href="#">
-                  Logout
-                </a>
-                
-              </div>
-            </div>
-          </div>
+            
+            <div className="navbar-end">
       
+    </div>
+    
+                
+          </div>
+          <div className="navbar-item">
+        <div className="buttons">
+         
+          <a className="button is-danger  has-text-white" href="#">Déconnexion</a>
+
+        </div>
+      </div>
           
         </div>
-        <script type="text/javascript"  src="./index.js" charset="utf-8"></script>
       </nav>
       </div>
 

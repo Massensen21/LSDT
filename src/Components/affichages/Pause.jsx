@@ -1,20 +1,27 @@
 import React from 'react'
 
+import { render } from "react-dom";
+
+import "../fontawesomeIcone/index";
+// get our fontawesome imports
+import { faHome } from "@fortawesome/free-solid-svg-icons";
+
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 export default function Pause() {
     return (
         <div className="has-background-black">
             <div className="card has-background-dark">
-  <div className="card-image ">
-   
-  </div>
+            <span class="icon">
+            <FontAwesomeIcon icon="camera"/>
+            </span>
+            
+              
+            
   <div className="card-content">
-  
-  <figure className="image is-240x240">
-      <img src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Placeholder image" />
-    </figure>
-  
-    <br/>
-    <br/>
+    
+    
 
     <div className="content has-text-white has-text-centered">
        Votre compte est en pause.
@@ -29,7 +36,6 @@ export default function Pause() {
         <br/>
         
 
-      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
     </div>
   </div>
 </div>

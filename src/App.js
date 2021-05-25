@@ -13,7 +13,7 @@ import { Header } from './Components/common';
       <div className="App ">
         <Header/>
         <header className="App-header has-background-black">
-        <div className=" has-background-black">
+        <div className=" has-background-black column is-half ">
         
   
         <Router>

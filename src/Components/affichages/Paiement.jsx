@@ -25,11 +25,9 @@ export default function Paiement() {
         <br/>
         <br/>
         
-
-      <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
     </div>
         <div className="">
-        <button class="button is-success is-fullwidth">Finaliser mon inscription</button>
+        <button class="button is-success is-fullwidth"><strong> Finaliser mon inscription</strong></button>
         </div>
   </div>
 

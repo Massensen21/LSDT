@@ -10,7 +10,7 @@ export default function Reservation() {
     return (
       
 
-        <div  className=" box has-background-black container is-max-desktop">
+        <div  className=" box has-background-black ">
 
 
 
@@ -18,14 +18,12 @@ export default function Reservation() {
         
         <form className="box has-background-dark  ">
 
-        <figure class="image is-128x128" >
-            <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
-          </figure>
+        
       
       <div className="field">
-        <label className="label has-text-white">Choisissez l'activité :</label>
-        <div className="control">
-          <div className="select">
+        <label className="label has-text-white has-text-justified">Choisissez l'activité :</label>
+        <div className="control has-text-justified">
+          <div className="select ">
             <select>
             <option> activité 1 </option>
               <option>Activité 2</option>
@@ -38,15 +36,15 @@ export default function Reservation() {
       
 
       <div className="field">
-    <label className="label has-text-white">Choisissez la date de votre séance </label>
-    <div className="control ">
-      <input className="input-shadow" type="date" placeholder="e.g. alex@example.com" />
+    <label className="label has-text-white has-text-justified">Choisissez la date de votre séance </label>
+    <div className="control has-text-justified">
+      <input className="input" type="date" placeholder="e.g. alex@example.com" />
     </div>
   </div>
 
   <div className="field">
-        <label className="label has-text-white">Choisissez parmis nos créneaux disponibles</label>
-        <div className="control">
+        <label className="label has-text-white has-text-justified">Choisissez parmis nos créneaux disponibles</label>
+        <div className="control has-text-justified">
           <div className="select">
             <select>
             <option></option>
@@ -57,9 +55,9 @@ export default function Reservation() {
         </div>
       </div>
 
-      <div className="field is-grouped is-grouped-centered ">
+      <div className="field  ">
         <div className="control ">
-          <button className="button is-success ">Valider</button>
+          <button className="button is-success is-fullwidth ">Valider</button>
         </div>
 
       </div>

@@ -11,11 +11,17 @@ export default function Acceuil() {
     return (
         <div  className=" box has-background-black container is-max-desktop">
            
-            <Paiement/>
+           <Pause/>
+            
+        
+        
+         {/*  
+            <Paiement/> 
             <Pause/>
             <Suspendu/>
             <Bloque/>
             <MaxCours/>
+        */}
         </div>
     )
 }
