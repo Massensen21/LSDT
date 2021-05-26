@@ -10,7 +10,7 @@ export default function Suspendu() {
     <FaBan  color="green" size="8em" />
   
 
-        <div className="has-background-black">
+        <div className="box has-background-dark container is-max-desktop ">
             <div className="card has-background-dark">
   <div className="card-image ">
    

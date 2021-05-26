@@ -13,7 +13,7 @@ export default function Pause() {
       <RiPauseCircleLine color="green" size="8em"/>
       
 
-        <div className="has-background-black">
+        <div className="box has-background-dark container is-max-desktop ">
             <div className="card has-background-dark">
            
             
@@ -28,9 +28,9 @@ export default function Pause() {
      
       <br/>
       <br/>  
-       conformément à votre demande. nous avons 
-       mis votre abonnement en pause. Vous pourrez
-        reprendre vos cours après avoir contacter le 
+       Conformément à votre demande. <br />
+       nous avons mis votre abonnement en pause. <br />
+        Vous pourrez reprendre vos cours après avoir contacter le 
         le responsable de LA SALLE DU TEMPS.
        
         

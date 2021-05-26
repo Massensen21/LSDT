@@ -9,7 +9,7 @@ export default function MaxCours() {
     <FaLock  color="green" size="8em"/>
   
 
-        <div className="has-background-black">
+        <div className="box has-background-black container is-max-desktop ">
         <div className="card has-background-dark">
   
   <div className="card-content">

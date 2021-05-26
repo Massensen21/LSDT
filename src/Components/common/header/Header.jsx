@@ -15,7 +15,7 @@ export default function Header() {
             <img  src= "https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif_v2.png" width="112" height="28" />
                    </a>
        
-    <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"id="navMenu" >
+    <a role="button" className="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample"id="navMenu" >
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>
       <span aria-hidden="true"></span>

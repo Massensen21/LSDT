@@ -14,10 +14,8 @@ export default function Bloque() {
 
         <div>
             <div className="card has-background-dark">
-  <div className="card-image ">
-   
-  </div>
-  <div className="card-content">  
+ 
+  <div className="box has-background-dark container is-max-desktop ">  
   
     <div className="content has-text-white has-text-justified">
        Oops! Votre compte est bloqué!

@@ -10,11 +10,9 @@ export default function Paiement() {
     <MdCreditCard  color="green" size="8em"/>
   
         <div>
-            <div className="card has-background-dark">
+            <div className="box has-background-dark container is-max-desktop ">
   
   <div className="card-content">
-  
-    <br/>
 
     <div className="content has-text-white has-text-justified">
        Finalisez votre inscription.
@@ -28,7 +26,7 @@ export default function Paiement() {
         
     </div>
         <div className="">
-        <button class="button is-success is-fullwidth"><strong> Finaliser mon inscription</strong></button>
+        <button className="button is-success is-fullwidth"><strong> Finaliser mon inscription</strong></button>
         </div>
   </div>
 

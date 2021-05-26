@@ -12,10 +12,11 @@ import { Footer } from './Components/common';
   
   function App() {
     return (
-      <div className="App ">
-        <Header/>
-        <header className="App-header has-background-black">
-        <div className=" has-background-black column is-half ">
+      <div className="App has-background-black ">
+        
+
+        <body>
+        <div className=" has-background-black column  ">
         
   
         <Router>
@@ -29,14 +30,8 @@ import { Footer } from './Components/common';
        
        
    </div>
-   
-   
-   
-        </header>
-
-      
-      
-        <Footer/>
+        </body>
+              
       </div>
     );
   }

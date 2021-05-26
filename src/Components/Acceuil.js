@@ -5,14 +5,18 @@ import Suspendu from './affichages/Suspendu'
 import Bloque from './affichages/Bloque'
 import MaxCours from './affichages/MaxCours'
 
+import { Footer } from '../Components/common';
 import { Header } from '../Components/common';
 
 export default function Acceuil() {
     return (
+<>
+        <Header/>
         <div  className=" box has-background-black container is-max-desktop">
+          
+        <MaxCours/>
            
-           <MaxCours/>
-           
+           <Footer/>
         
         
          {/*  
@@ -23,6 +27,7 @@ export default function Acceuil() {
             <MaxCours/>
         */}
         </div>
+  </>
     )
 }
 

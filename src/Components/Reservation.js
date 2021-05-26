@@ -3,22 +3,21 @@ import MaxCours from './affichages/MaxCours'
 import GestionReservation from './affichages/GestionReservation'
 import { Header } from '../Components/common';
 import LSDTlogo from '../assets/lsdtLogo.jpg'
+import { Footer } from '../Components/common';
+
 
 
 
 export default function Reservation() {
     return (
       <>
-       <div className="has-background-dark  has-text-justified ">
-            <p className="has-text-success">Vous avez le droit de réserver trois créneaux</p>
-          </div>
+       <Header/>
+       
+       <p className="has-text-black has-text-justified has-background-success"> <br/> <strong> Vous avez le droit de réserver trois créneaux</strong> <br/> 
+        <br /></p>
 
-        <div  className=" box has-background-black ">
+        <div  className=" box has-background-black container is-max-desktop ">
 
-         
-
-          
-        
         <form className="box has-background-dark  ">
 
         
@@ -69,6 +68,8 @@ export default function Reservation() {
 
         <GestionReservation/>
 
+        <Footer/>
+      
 
      
 

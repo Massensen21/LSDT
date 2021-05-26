@@ -1,10 +1,12 @@
 import React from 'react'
 import ModalConnexion from './Modal/modalConnexion'
+import { Header } from '../Components/common';
+
 
 export default function Login() {
     return (
-        <div className="box has-background-black ">
-          
+        <div className="box has-background-black container is-max-desktop ">
+         
         
         <form className="box has-background-dark   ">
           <div className="box has-background-black">
