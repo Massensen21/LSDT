@@ -5,6 +5,8 @@ import Reservation from './Components/Reservation'
 import Login from './Components/Login'
 import {BrowserRouter as Router, Route, Switch} from 'react-router-dom'
 import { Header } from './Components/common';
+import { Footer } from './Components/common';
+
 
 
   
@@ -27,7 +29,14 @@ import { Header } from './Components/common';
        
        
    </div>
+   
+   
+   
         </header>
+
+      
+      
+        <Footer/>
       </div>
     );
   }

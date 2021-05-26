@@ -8,11 +8,14 @@ import LSDTlogo from '../assets/lsdtLogo.jpg'
 
 export default function Reservation() {
     return (
-      
+      <>
+       <div className="has-background-dark  has-text-justified ">
+            <p className="has-text-success">Vous avez le droit de réserver trois créneaux</p>
+          </div>
 
         <div  className=" box has-background-black ">
 
-
+         
 
           
         
@@ -72,7 +75,7 @@ export default function Reservation() {
 
       </div>
       
-      
+</>      
       )
 }
 

@@ -1,26 +1,27 @@
 import React from 'react'
 import lsdtLogo from '../../assets/lsdtLogo.jpg'
+import { MdCreditCard } from "react-icons/md";
 
 export default function Paiement() {
     return (
+
+      <>
+
+    <MdCreditCard  color="green" size="8em"/>
+  
         <div>
             <div className="card has-background-dark">
   
   <div className="card-content">
-  <span class="icon-text">
-  <span class="icon">
-    <i class="fas fa-home"></i>
-  </span>
   
-</span>
     <br/>
 
-    <div className="content has-text-white has-text-centered">
+    <div className="content has-text-white has-text-justified">
        Finalisez votre inscription.
      
       <br/>
       <br/>  
-        Il vous reste à payer votre prorata et/ou à nous <br/> 
+        Il vous reste à payer votre prorata et/ou à nous 
         communiquer votre IBAN pour réserver d'autres séances.
         <br/>
         <br/>
@@ -36,5 +37,6 @@ export default function Paiement() {
         
 
         </div>
+    </>
     )
 }

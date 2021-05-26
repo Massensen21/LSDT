@@ -1,10 +1,10 @@
 import React from 'react'
-import modalConnexion from './Modal/modalConnexion'
+import ModalConnexion from './Modal/modalConnexion'
 
 export default function Login() {
     return (
         <div className="box has-background-black ">
-
+          
         
         <form className="box has-background-dark   ">
           <div className="box has-background-black">
@@ -30,7 +30,7 @@ export default function Login() {
   
 </form>
         
-   <modalConnexion/>
+   
 
         </div>
         

@@ -2,15 +2,15 @@ import React from 'react'
 
 export default function GestionReservation() {
     return (
+      
+      
       <div >
         <div class="column">
   
   <div className="card-content has-background-dark">
     <div className="content has-text-white has-text-justified">
 
-           <p> DATE : $</p>
-           <p>HEURE : $</p>
-            <p>ACTIVITÉ : ....</p>
+           <p> DATE : $   HEURE : $  ACTIVITÉ : ....</p>
            
 
     </div>
@@ -28,5 +28,7 @@ export default function GestionReservation() {
 
 
         </div>
+    
+    
     )
 }
