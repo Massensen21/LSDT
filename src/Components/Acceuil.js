@@ -12,21 +12,23 @@ export default function Acceuil() {
     return (
 <>
         <Header/>
-        <div  className=" box has-background-black container is-max-desktop">
-          
+        <div  className=" box has-background-black container is-max-desktop">     
+
         <MaxCours/>
-           
-           <Footer/>
         
-        
-         {/*  
-            <Paiement/> 
+
+           {/*
+           <Paiement/> 
             <Pause/>
             <Suspendu/>
             <Bloque/>
             <MaxCours/>
-        */}
+           */}
+       
+
+<Footer/>
         </div>
+       
   </>
     )
 }

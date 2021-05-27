@@ -12,11 +12,10 @@ import { Footer } from './Components/common';
   
   function App() {
     return (
-      <div className="App has-background-black ">
-        
-
-        <body>
-        <div className=" has-background-black column  ">
+      
+<div className="App-div has-background-black"> 
+      
+      <div className=" has-background-black   " >
         
   
         <Router>
@@ -26,13 +25,11 @@ import { Footer } from './Components/common';
            <Route path="/Reservation" exact component={Reservation} />
   
            </Switch>
-        </Router>
-       
-       
-   </div>
-        </body>
-              
-      </div>
+        </Router>  
+        
+        </div>
+
+</div>
     );
   }
 

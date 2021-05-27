@@ -5,13 +5,20 @@ import { Header } from '../Components/common';
 
 export default function Login() {
     return (
-        <div className="box has-background-black container is-max-desktop ">
+
+
+    <div className="column is-half is-offset-one-quarter p-6">
+        
+        <center class="image is-256x256">
+            <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif_v2.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
+            </center>
+        
+        <div className="box has-background-black container is-max-desktop m-6 ">
          
         
+        
         <form className="box has-background-dark   ">
-          <div className="box has-background-black">
-            <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif_v2.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
-            </div>
+          
             
   <div className="field">
     <label className="label has-text-white has-text-justified">Email</label>
@@ -33,7 +40,7 @@ export default function Login() {
 </form>
         
    
-
+</div>
         </div>
         
     );

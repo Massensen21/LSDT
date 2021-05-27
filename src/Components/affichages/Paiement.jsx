@@ -1,28 +1,30 @@
 import React from 'react'
-import lsdtLogo from '../../assets/lsdtLogo.jpg'
-import { MdCreditCard } from "react-icons/md";
-
+import { FiAlertOctagon} from "react-icons/fi";
 export default function Paiement() {
     return (
 
       <>
-
-    <MdCreditCard  color="green" size="8em"/>
-  
-        <div>
-            <div className="box has-background-dark container is-max-desktop ">
+        <center>
+        <FiAlertOctagon color="red" size="8em"  />
+        </center>
+    
+      
+        <div className="column is-half is-offset-one-quarter ">
+            <div className="box has-background-dark container is-max-desktop m-4">
   
   <div className="card-content">
 
     <div className="content has-text-white has-text-justified">
+    
+    <p className="has-text-centered has-text-weight-bold">
        Finalisez votre inscription.
-     
-      <br/>
-      <br/>  
-        Il vous reste à payer votre prorata et/ou à nous 
+      </p> 
+      <p>
+          Il vous reste à payer votre prorata et/ou à nous 
         communiquer votre IBAN pour réserver d'autres séances.
         <br/>
-        <br/>
+      
+      </p>
         
     </div>
         <div className="">

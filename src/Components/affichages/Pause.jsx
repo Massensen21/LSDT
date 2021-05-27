@@ -9,12 +9,12 @@ import {RiPauseCircleLine} from 'react-icons/ri'
 export default function Pause() {
     return (
       <>
-      
+      <center>
       <RiPauseCircleLine color="green" size="8em"/>
+      </center>
       
-
-        <div className="box has-background-dark container is-max-desktop ">
-            <div className="card has-background-dark">
+      <div className="column is-half is-offset-one-quarter ">
+        <div className="box has-background-dark container is-max-desktop  m-4">
            
             
               
@@ -23,22 +23,22 @@ export default function Pause() {
     
     
 
-    <div className="content has-text-white has-text-justified">
+    <div className="content has-text-white ">
+      <p className="has-text-centered has-text-weight-bold">
        Votre compte est en pause.
-     
-      <br/>
-      <br/>  
+       </p>      
        Conformément à votre demande. <br />
-       nous avons mis votre abonnement en pause. <br />
+       Nous avons mis votre abonnement en pause. <br />
         Vous pourrez reprendre vos cours après avoir contacter le 
-        le responsable de LA SALLE DU TEMPS.
+        responsable de LA SALLE DU TEMPS.
        
         
 
-    </div>
   </div>
 </div>
-        </div>
+        
+</div>
+</div>
     </>
     )
 }

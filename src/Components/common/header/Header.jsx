@@ -1,14 +1,13 @@
 import React from 'react'
 import 'bulma/css/bulma.css'
-import lsdtLogo from '../../../assets/lsdtLogo.jpg'
 
 export default function Header() {
     return (
         
-        <div>
+        <>
 
     
-        <nav className="navbar is-transparent has-background-black  ">
+        <nav className="navbar is-transparent has-background-black ">
         <div className="navbar-brand">
           <a className="navbar-item " href="/">
         
@@ -44,7 +43,7 @@ export default function Header() {
           
         </div>
       </nav>
-      </div>
+      </>
 
        
         

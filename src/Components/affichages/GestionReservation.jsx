@@ -4,45 +4,131 @@ export default function GestionReservation() {
     return (
       
       
-      <div >
-        <div className="column is-flex is-justify-content-center	is-justify-content-space-evenly		">
+      <>
   
-  <div className="card-content has-background-dark">
-    <div className="content has-text-white has-text-justified">
 
-           <p> DATE : $   HEURE : $  ACTIVITÉ : ....</p>
-           
+  <div className="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd">
+  <div className="column has-text-white has-text-centered">
+   <p> 22/02/2022 <br />
+            11H:30 <br /> 
+             Activité 3
+             </p>
 
-    </div>
-    <footer className="card-footer has-background-black ">
-    <button href="#" className="card-footer-item  button is-warning">Modifier</button>
-    <button href="#" className="card-footer-item  button is-danger">Supprimer</button>
-  </footer>
+             <div className="field is-grouped is-grouped-centered">
+    <p className="control">
+      <a className="button is-info">
+         Modifier
+      </a>
+    </p>
+    <p className="control">
+         <a className="button is-danger">
+           Annuler
+          </a>
+    </p>
+  </div>
 
   </div>
 
-  <div className="card-content has-background-dark">
-    <div className="content has-text-white has-text-justified">
 
-           <p> DATE : $   HEURE : $  ACTIVITÉ : ....</p>
-           
-      
-    </div>
-    <footer className="card-footer has-background-black ">
-    <button href="#" className="card-footer-item  button is-warning">Modifier</button>
-    <button href="#" className="card-footer-item  button is-danger">Supprimer</button>
-  </footer>
+  <div className="column has-text-white has-text-centered">
+    <p> 22/02/2022 <br />
+            11H:30 <br /> 
+             Activité 3
+             </p>
+
+   <div className="field is-grouped is-grouped-centered">
+    <p className="control">
+      <a className="button is-info">
+         Modifier
+      </a>
+    </p>
+    <p className="control">
+         <a className="button is-danger">
+           Annuler
+          </a>
+    </p>
+  </div>
 
   </div>
-  
+
+
+  <div className="column has-text-white has-text-centered">
+  <p> 22/02/2022 <br />
+            11H:30 <br /> 
+             Activité 3
+             </p>
+
+
+             <div className="field is-grouped is-grouped-centered">
+    <p className="control">
+      <a className="button is-info">
+         Modifier
+      </a>
+    </p>
+    <p className="control">
+         <a className="button is-danger">
+           Annuler
+          </a>
+    </p>
+  </div>
+
+  </div>
 
   
 </div>
+  
 
-
-
-        </div>
+        </>
     
     
     )
 }
+
+
+
+<div className="columns is-variable is-1-mobile is-0-tablet is-3-desktop is-8-widescreen is-2-fullhd" >
+
+
+<div className="column has-text-white   has-background-dark" >
+<p> 22/02/2022 <br />
+            11H:30 <br /> 
+             Activité 3</p>
+
+             <div className="field is-grouped is-grouped-centered">
+<p className="control">
+  <a className="button is-info">
+    Modifier
+  </a>
+</p>
+<p className="control">
+  <a className="button is-danger">
+    Annuler
+  </a>
+</p>
+</div>
+
+
+</div>
+
+<div className="column  has-text-white has-background-dark" >
+<p> 22/02/2022 <br /> 
+            11H:30 <br /> 
+             Activité 3</p>
+
+             <div className="field is-grouped is-grouped-centered">
+<p className="control">
+  <a className="button is-info">
+    Modifier
+  </a>
+</p>
+<p className="control">
+  <a className="button is-danger">
+    Annuler
+  </a>
+</p>
+</div>
+
+
+</div>
+
+</div>
