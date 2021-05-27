@@ -14,7 +14,7 @@ export default function Acceuil() {
         <Header/>
         <div  className=" box has-background-black container is-max-desktop">     
 
-        <MaxCours/>
+        <Suspendu/>
         
 
            {/*

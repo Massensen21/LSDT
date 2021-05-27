@@ -25,6 +25,7 @@ export default function Bloque() {
         réservé ce mois-ci, votre compte applique donc
         la pénalité conforme au contrat LA SALLE DU TEMPS.
         <br />
+        <br />
         Vous pourrez de nouveau prendre des
         rendez-vous le mois prochain ou bien débloquer
         votre compte dès maintenant en vous acquittant de 10€.

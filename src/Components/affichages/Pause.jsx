@@ -23,9 +23,9 @@ export default function Pause() {
     
     
 
-    <div className="content has-text-white ">
+    <div className="content has-text-white has-text-justified ">
       <p className="has-text-centered has-text-weight-bold">
-       Votre compte est en pause.
+       Votre compte est en pause
        </p>      
        Conformément à votre demande. <br />
        Nous avons mis votre abonnement en pause. <br />

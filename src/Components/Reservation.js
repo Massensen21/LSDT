@@ -13,7 +13,7 @@ export default function Reservation() {
       
        <Header/>
 
-       <section className="hero is-small is-black">
+       <section className="hero is-small is-white">
   <div className="hero-body">
     <p className="subtitle has-text-justified has-text-weight-bold" >
     Vous avez le droit de réserver trois créneaux
@@ -25,6 +25,7 @@ export default function Reservation() {
 
 
         <div  className=" box  has-background-black container is-max-desktop ">
+        
         <form className="box has-background-dark  ">
 
         
@@ -73,11 +74,12 @@ export default function Reservation() {
 
         </form>
 
+       
         <GestionReservation/>
-
         </div>
       </div>
       
+
       <Footer/>
 </>      
       )

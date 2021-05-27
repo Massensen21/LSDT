@@ -9,7 +9,7 @@ export default function Login() {
 
     <div className="column is-half is-offset-one-quarter p-6">
         
-        <center class="image is-256x256">
+        <center className="image is-256x256">
             <img  src="https://imageslsdt.s3.eu-west-3.amazonaws.com/LSDT_logo_definitif_v2.png" alt="Bulma: a modern CSS framework based on Flexbox" width="112" height="28" />
             </center>
         

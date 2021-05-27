@@ -17,7 +17,7 @@ export default function Paiement() {
     <div className="content has-text-white has-text-justified">
     
     <p className="has-text-centered has-text-weight-bold">
-       Finalisez votre inscription.
+       Finalisez votre inscription
       </p> 
       <p>
           Il vous reste à payer votre prorata et/ou à nous 
