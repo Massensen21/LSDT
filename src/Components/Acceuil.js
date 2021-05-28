@@ -10,26 +10,24 @@ import { Header } from '../Components/common';
 
 export default function Acceuil() {
     return (
-<>
-        <Header/>
-        <div  className=" box has-background-black container is-max-desktop">     
+        <>
+            <Header />
+            <div className=" box has-background-black container is-max-desktop">
 
-        <Suspendu/>
-        
+                <Suspendu />
 
-           {/*
+                {/*
            <Paiement/> 
             <Pause/>
             <Suspendu/>
             <Bloque/>
             <MaxCours/>
            */}
-       
 
-<Footer/>
-        </div>
-       
-  </>
+                <Footer />
+            </div>
+
+        </>
     )
 }
 
